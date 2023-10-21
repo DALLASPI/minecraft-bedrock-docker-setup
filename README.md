@@ -16,6 +16,19 @@ Easily set up and manage a Minecraft Bedrock server using Docker with these scri
 
 ![Minecraft Logo](https://www.minecraft.net/content/dam/games/minecraft/key-art/Minecraft_key_art_1920x1080.jpg) *(Image Source: Minecraft Official)*
 
+📖 Extended Description
+Minecraft, the world-renowned sandbox game, allows players to build, explore, and embark on adventures in pixelated worlds. While the game offers various editions, the Bedrock edition is known for its cross-platform play, allowing players from different devices to play together.
+
+This repository provides a streamlined approach to setting up a Minecraft Bedrock server using Docker. Docker, a platform used to develop, ship, and run applications inside containers, ensures that the server runs in a consistent environment, making the setup process smooth and hassle-free. By containerizing the Minecraft server, we can ensure that it remains isolated from other processes, is easily scalable, and can be effortlessly migrated across different systems.
+
+The provided scripts in this repository are:
+
+setup.sh: This script automates the entire process of setting up the Minecraft Bedrock server. From installing Docker and Docker Compose (if they aren't already installed) to initializing the server, everything is taken care of.
+
+cleanup.sh: After hours of gameplay, if you ever decide to take down the server or wish to perform a clean reset, this script ensures that all Docker-related resources are properly stopped and removed. It also provides an option to remove the Docker image, freeing up space.
+
+Whether you're a Minecraft enthusiast looking to set up your private server or a server admin aiming to provide a platform for players to connect, these scripts make the process straightforward. No more sifting through lengthy documentation or troubleshooting obscure errors. Just run the scripts, and your Minecraft Bedrock server will be up and running in no time!
+
 ## 🚀 Getting Started
 
 ### Prerequisites
